@@ -3,8 +3,7 @@
 
 	var L = require('leaflet'),
 		corslite = require('@mapbox/corslite'),
-		polyline = require('@mapbox/polyline'),
-		osrmTextInstructions = require('osrm-text-instructions')('v5');
+		polyline = require('@mapbox/polyline');
 
 	// Ignore camelcase naming for this file, since OSRM's API uses
 	// underscores.
@@ -199,7 +198,7 @@
 			if (this.options.stepToText) {
 				stepToText = this.options.stepToText;
 			} else {
-				stepToText = L.bind(osrmTextInstructions.compile, osrmTextInstructions, this.options.language);
+				stepToText = function(){return "";}
 			}
 
 			for (i = 0; i < legCount; i++) {
