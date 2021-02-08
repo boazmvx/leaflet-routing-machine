@@ -1,6 +1,6 @@
 {
   "name": "leaflet-routing-machine-light",
-  "version": "3.2.12",
+  "version": "1.00",
   "description": "Routing for Leaflet",
   "directories": {
     "example": "examples",
@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/perliedman/leaflet-routing-machine.git"
+    "url": "git://github.com/boazmvx/leaflet-routing-machine-light"
   },
   "keywords": [
     "leaflet",
     "routing",
     "osrm"
   ],
-  "author": "Per Liedman <per@liedman.net>",
+  "author": "Boaz Cohen, forked from Per Liedman <per@liedman.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/perliedman/leaflet-routing-machine/issues"
+    "url": "https://github.com/boazmvx/leaflet-routing-machine-light/issues"
   },
-  "homepage": "https://github.com/perliedman/leaflet-routing-machine",
+  "homepage": "https://github.com/boazmvx/leaflet-routing-machine-light",
   "browserify-shim": {
     "leaflet": "global:L"
   },
